@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Daniil Medvedev – Site 01</title>
+  <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+  <header class='site-header'>
+    <h1>Daniil Medvedev</h1>
+    <nav>
+      <a href='#bio'>Bio</a>
+      <a href='#achievements'>Achievements</a>
+      <a href='#contact'>Contact</a>
+    </nav>
+    <button id='themeBtn' aria-label='Toggle theme'>Dark</button>
+  </header>
+  <section class='hero'>
+    <div class='hero-inner'>
+      <h2>Professional profile</h2>
+      <p>Clean, minimal single-page experience with responsive interactions.</p>
+      <button data-scroll='about'>Learn more</button>
+    </div>
+  </section>
+  <section id='bio' class='panel'>
+    <h3>Bio</h3>
+    <p>Data-driven, performance-focused athlete with a modern, accessible web presence.</p>
+  </section>
+  <section id='achievements' class='panel'>
+    <h3>Achievements</h3>
+    <ul class='grid'>
+      <li>Grand Slam finalist</li>
+      <li>Top-ranked in hard courts</li>
+      <li>Olympic contender</li>
+    </ul>
+  </section>
+  <section id='contact' class='panel'>
+    <h3>Contact</h3>
+    <form onsubmit='return false'>
+      <input placeholder='Name' required>
+      <input placeholder='Email' type='email' required>
+      <textarea placeholder='Message' rows='4'></textarea>
+      <button type='submit'>Send</button>
+    </form>
+  </section>
+  <footer class='site-footer'>© 2026 Daniil Medvedev</footer>
+  <script src='script.js'></script>
+</body>
+</html>
